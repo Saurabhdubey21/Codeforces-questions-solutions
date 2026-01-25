@@ -1,4 +1,4 @@
-//A. Restoring Three Numbers
+//1154A. Restoring Three Numbers
 #include<bits/stdc++.h>
 using namespace std;
 int main(){

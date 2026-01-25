@@ -1,4 +1,4 @@
-//A. Chips
+//92A. Chips
 #include<bits/stdc++.h>
 using namespace std;
 int main(){

@@ -1,4 +1,4 @@
-// A. Panoramix's Prediction
+// 80A. Panoramix's Prediction
 #include<bits/stdc++.h>
 using namespace std;
 int main(){

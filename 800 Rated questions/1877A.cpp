@@ -1,4 +1,4 @@
-//A. Goals of Victory
+//1877A. Goals of Victory
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
