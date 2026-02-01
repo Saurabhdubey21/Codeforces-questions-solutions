@@ -1,4 +1,4 @@
-// A. New Year and Hurry
+//750A. New Year and Hurry
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
