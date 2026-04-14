@@ -13,15 +13,16 @@ void solve(){
         freq[arr[i]]++;
     }
     if(freq.size()>=3)cout<<"No\n";
-    if(freq.size()==1)cout<<"Yes\n";
-    int freq1=freq.begin()->second;
-    int freq2=freq.begin()->second;
-    if(freq1==freq2){
-        cout<<"Yes\n";
-    }else if(n%2==1&&abs(freq1-freq2)<=1){
-        cout<<"Yes\n";
-    }else{
-        cout<<"No\n";
+    else{
+        int freq1=freq.begin()->second;
+        int freq2=freq.rbegin()->second;
+        if(freq1==freq2){
+            cout<<"Yes\n";
+        }else if(n%2==1&&abs(freq1-freq2)<=1){
+            cout<<"Yes\n";
+        }else{
+            cout<<"No\n";
+        }
     }
 }
 int main(){
