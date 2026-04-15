@@ -1,4 +1,4 @@
-//1878A.Goals of Victory
+//1878A.How Much Does Daytona Cost?
 #include<bits/stdc++.h>
 using namespace std;
 void solve(){
