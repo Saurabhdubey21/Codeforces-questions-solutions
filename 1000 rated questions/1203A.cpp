@@ -11,14 +11,11 @@ void solve(){
     bool clockwise=true;
     bool counter=true;
     for(int i=0;i<n;i++){
-        int next=arr[i+1]%n;
-        if(next!=arr[i]%n+1){
-            clockwise=false;
-        }
-        int expected=arr[i]-2+n%n+1;
-        if(next!=expected){
-            counter=false;
-        }
+        int next=arr[(i+1)%n];
+        int expected=arr[i]%n+1;
+        if(next!=expected)clockwise=false;
+        int expectedcntr=(arr[i]-2+n)%n+1;
+        if(next!=expectedcntr)counter=false;
     }
     if(clockwise||counter){
         cout<<"YES\n";
